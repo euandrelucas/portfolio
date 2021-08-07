@@ -1,7 +1,7 @@
 ---
 title: Minha experiência com o ubuntu
 date: 2021/8/7
-description: View examples of all possible Markdown options.
+description: Veja o que achei do ubuntu.
 tag: web development, ubuntu, os, sistema, operacional
 author: You
 ---
