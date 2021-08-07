@@ -20,7 +20,6 @@ export default function Nextra({ Component, pageProps }) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
-        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=610ee33bdd84d90012da784b&product=sticky-share-buttons' async='async'></script>
         </Head>
       <Component {...pageProps} />
     </>
