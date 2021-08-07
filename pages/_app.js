@@ -21,7 +21,8 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
         <script async src="https://arc.io/widget.min.js#nYrskAcR"></script>
-      </Head>
+        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=610ee33bdd84d90012da784b&product=sticky-share-buttons' async='async'></script>
+        </Head>
       <Component {...pageProps} />
     </>
   )
