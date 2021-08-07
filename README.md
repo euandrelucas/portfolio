@@ -1,42 +1,21 @@
-# Portfolio Starter Kit
+# André Lucas (ADG)
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+**Hello!** Meu nome é ADG, também conhecido como André, tenho 14 anos, gosto de ajudar pessoas e também desenvolvo algumas coisas que eu acho uteis, geralmente quando preciso de algo ou quando me pedem.
 
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
+Minha maior experiência é em javascript, mas também sei usar java e python, esse site que você está visualizando neste exato momento é feito em **Next.js** juntamente com a biblioteca [Nextra](https://nextra.vercel.app/).
 
-https://demo.vercel.blog
+Comecei a mexer com programação entre 2017 - 2018, quando eu fazia coisas no [GameMaker](https://www.yoyogames.com/pt-BR/gamemaker), só por diversão, nada muito especialista, eu aprendi realmente a logica da programação em 2019, quando minha mãe queria abrir uma loja virtual e pediu para eu fazer um site.
 
-## Configuration
+Eu vou usar este blog para postar algumas outras coisas que eu acho util e que pessoas podem gostar e que também possa facilitar a vida das mesmas.
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.js`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+---
 
-## Preview
-
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog&project-name=portfolio&repository-name=portfolio)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example blog my-blog
-# or
-yarn create next-app --example blog my-blog
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+<div>
+  Twitter [@4DG_YT](https://twitter.com/4DG_YT)
+  <br />
+  GitHub [@yADGithub](https://github.com/yADGithub)
+  <br />
+  Instagram [@4ndre_piloto](https://instagram.com/4ndre_piloto)
+  <br />
+  Email contato.adg.ofc@gmail.com
+</div>
