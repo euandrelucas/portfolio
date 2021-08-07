@@ -20,6 +20,7 @@ export default function Nextra({ Component, pageProps }) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        <script async src="https://arc.io/widget.min.js#nYrskAcR"></script>
       </Head>
       <Component {...pageProps} />
     </>
