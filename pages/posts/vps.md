@@ -82,30 +82,21 @@ Como eu uso linux, irei deixar um tutorial ai em baixo de outro website mostrand
 Para isso você irá precisar do curl, instalável com:
 
 ```
-
 $ sudo apt install curl
 ```
-
 depois execute:
-
 ```
-
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
 
 Isso irá instalar o NVM (Node Version Manager), já que o **sudo apt install nodejs** está desatualizado.
 
 Depois que instalar, só usar algum desses comandos:
-
 ```
-
 $ nvm install vX.X.X
 ```
-
 Utilize o comando acima ^ para baixar uma versão que tenha preferência, substituindo o X pela versão
-
 ```
-
 $ nvm install node
 ```
 
@@ -118,9 +109,7 @@ Depois digite **node** no terminal e tudo estará funcionando.
 O ubuntu ja vem com python, então... :D
 
 Mas caso queira atualizar utilize o comando:
-
 ```
-
 $ sudo pt upgrade python3
 ```
 
@@ -129,7 +118,6 @@ $ sudo pt upgrade python3
 Para instalar o java em sua maquina, basta usar o comando a seguir:
 
 ```
-
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
 sudo apt-get install -y software-properties-common
 sudo apt-get install adoptopenjdk-11-hotspot
@@ -142,7 +130,6 @@ Screen é o que vai deixar nosso bot online, seria como se você abrisse uma nov
 Para instalar utilize:
 
 ```
-
 $ sudo apt install screen
 ```
 
