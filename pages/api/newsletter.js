@@ -8,9 +8,21 @@ function getRequstParams(email) {
 
     const url = `https://${DATACENTER}.api.mailchimp.com/3.0/lists/${LIST_ID}/members`
 
+    const base64ApiKey = Buffer.from(`anystring:${API_KEY}`).toString('base64')
+    const headers = {
+        'Content-Type': 'application/json',
+        Authorization: `Basic ${base64ApiKey}`
+    }
+
     const data = {
         email_address: email,
         status: 'subscribed'
+    }
+
+    return {
+        url,
+        data,
+        headers
     }
 }
 
