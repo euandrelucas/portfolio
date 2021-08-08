@@ -20,9 +20,10 @@ export default () => {
 
     return (
         <center>
-            <h1>Agora tenho uma newsletter!</h1>
-            <input type='text' placeholder='Insira o Email' value={email} onChange={(e)=> setEmail(e.target.value)}
+            <br></br>
+            <input type='text' class='text-center' placeholder='Insira o Email' value={email} onChange={(e)=> setEmail(e.target.value)}
             ></input>
+            <br></br>
             <button disabled={state==='LOADING' } onClick={subscribe}>
                 Inscreva-se
             </button>
@@ -30,7 +31,7 @@ export default () => {
             <p>{errorMessage}</p>
             )}
             {state === 'SUCCESS' && (
-            <p>Success!</p>
+            <p>Sucesso!</p>
             )}
         </center>
     )
