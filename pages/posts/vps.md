@@ -38,7 +38,6 @@ Respostas para perguntas que geralmente são feitas ao comprar uma vps:
 Para conectar a uma VPS, utilizamos [SSH](https://en.wikipedia.org/wiki/Secure_Shell) (Secure Shell Protocol), abra o WSL ou PowerShell e utilize:
 
 ```
-
 $ ssh root@ip-da-maquina
 ```
 
@@ -47,7 +46,6 @@ $ ssh root@ip-da-maquina
 Ao conectar, você irá ver uma mensagem parecida com essa:
 
 ```
-
 The authenticity of host '<host>' can't be established.
 ECDSA key fingerprint is    SHA256:TER0dEslggzS/BROmiE/s70WqcYy6bk52fs+MLTIptM.
 Are you sure you want to continue connecting (yes/no)?
@@ -62,7 +60,6 @@ Depois ele irá pedir a senha de sua maquina, insira a senha que você configuro
 Pronto, agora você está conectado em sua VPS, caso você queira ficar de olho no consumo, você pode instalar o neofetch em sua VPS, basta usar:
 
 ```
-
 $ sudo apt install neofetch
 ```
 
