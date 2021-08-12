@@ -11,7 +11,7 @@ class MyDocument extends Document {
       title: 'ADG Website',
       description: 'Howdy! Meu nome é ADG, também conhecido como André, tenho 14 anos, gosto de ajudar pessoas e também desenvolvo algumas coisas que eu acho uteis, geralmente quando preciso de algo ou quando me pedem.',
       image:
-        'https://imgur.com/FJxpkew.png'
+        '/favicon.ico'
     }
 
     return (
