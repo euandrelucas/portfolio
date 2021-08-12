@@ -1,0 +1,2 @@
+import LogRocket from 'logrocket';
+LogRocket.init('01na7u/adg-website');

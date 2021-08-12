@@ -8,6 +8,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "gray-matter": "^4.0.2",
+    "logrocket": "^2.0.0",
     "next": "latest",
     "nextra": "^0.4.4",
     "nextra-theme-blog": "^0.1.5",
