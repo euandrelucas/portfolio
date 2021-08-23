@@ -3,7 +3,7 @@ title: Como hospedar seu bot em uma vps!
 date: 2021/8/7
 description: Aprenda a hospedar seu bot em uma VPS linux :)
 tag: hosting, ubuntu, os, sistema, operacional, vps, como, hospedar, segurança, tutorial, hospedagem, gratis, 2021, como usar uma vps, como usar um vps, o que fazer com uma vps, o que é uma vps, vps como usar, vps, como hospedar bot, como hospedar bot discord, como hospedar bot na vps, como hospedar bot telegram, vps 2020, vps como configurar, vps como funciona, dev aprender bot, dev aprender bot discord, dev aprender bot instagram, dev aprender python, volohost
-author: You
+author: ADG
 ---
 # Como hospedar seu bot em uma vps, pratico e facil!
 

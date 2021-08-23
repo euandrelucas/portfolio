@@ -3,7 +3,7 @@ title: E Unable to locate package
 date: 2021/8/8
 description: Para instalar softwares (ou packages) no ubuntu utilizamos comandos, Mas em casos muito raros pode ser que você consiga um erro muito chato, vamos aprender a resolver esse erro?
 tag: web development, ubuntu, os, sistema, operacional
-author: You
+author: ADG
 ---
 # E: Unable to locate package
 

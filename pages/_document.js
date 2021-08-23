@@ -31,7 +31,7 @@ class MyDocument extends Document {
         </Head>
         <script async src="https://arc.io/widget.min.js#P8x2YoZh"></script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1072801975882280"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
         <body>
           <Main />
           <NextScript />
