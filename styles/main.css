@@ -78,3 +78,34 @@ img.next-image {
   display: inline-block;
   font-size: 16px;
 }
+
+input[type=text] {
+  background-color: #FFFFFF; /* Green */
+  width: 100%;
+  color: black;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=text].dash {
+  border-style: dashed;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  display: block
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}

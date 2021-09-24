@@ -7,10 +7,11 @@ export default () => {
     const [errorMessage, setErrorMessage] = useState(null)
 
     const subscribe = async () => {
+        if (!email) return alert("Faltou adicionar o email.")
         setState('LOADING')
         setErrorMessage(null)
         try {
-            const response = axios.post('/api/newsletter', { email })
+            const response = await axios.post('/api/newsletter', { email })
             setState('SUCCESS')
         } catch (e) {
             setErrorMessage(e.response.data.error)
@@ -21,17 +22,17 @@ export default () => {
     return (
         <center>
             <br></br>
-            <input type='text' class='text-center' placeholder='Insira o Email' value={email} onChange={(e)=> setEmail(e.target.value)}
+            <input type='text' className='dash text-center' placeholder='Insira o Email' value={email} onChange={(e)=> setEmail(e.target.value)}
             ></input>
             <br></br>
-            <button disabled={state==='LOADING' } onClick={subscribe}>
+            <button className="button" disabled={ state==='LOADING' } onClick={subscribe}>
                 Inscreva-se
             </button>
             {state === 'ERROR' && (
-            <p>{errorMessage}</p>
+                <p>{errorMessage}</p>
             )}
             {state === 'SUCCESS' && (
-            <p>Sucesso!</p>
+                <p>Você foi adicionado a minha Newletter!</p>
             )}
         </center>
     )
