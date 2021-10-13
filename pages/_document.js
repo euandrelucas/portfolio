@@ -29,9 +29,6 @@ class MyDocument extends Document {
           <meta name="twitter:description" content={meta.description} />
           <meta name="twitter:image" content={meta.image} />
         </Head>
-        <script async src="https://arc.io/widget.min.js#P8x2YoZh"></script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1072801975882280"
-     crossOrigin="anonymous"></script>
         <body>
           <Main />
           <NextScript />
