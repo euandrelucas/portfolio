@@ -80,4 +80,4 @@ $ sudo add-apt-repository restricted
 $ sudo add-apt-repository multiverse
 ```
 
-> Espero que ajude :), post feito para um amigo que estava com problemas para instalar o NVM (Node Version Manager), que eu explico um pouco [nesse post](/posts/vps), recomendo, caso queira aprender a hospedar uma aplicação em sua propia VPS :)
+> Espero que ajude :), post feito para um amigo que estava com problemas para instalar o NVM (Node Version Manager), que eu explico um pouco [nesse post](/posts/como-hospedar-seu-bot-em-uma-vps), recomendo, caso queira aprender a hospedar uma aplicação em sua propia VPS :)
